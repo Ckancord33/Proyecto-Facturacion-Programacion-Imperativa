@@ -22,9 +22,19 @@ matriz[0][4] = "Gaseosa"
 matriz[0][5] = "Jugo Hit"
 matriz[0][6] = "Agua"
 matriz[0][7] = "Cerveza"
-for f in range(1,len(matriz)):
+matriz[2][0] = 15000
+matriz[2][1] = 10000
+matriz[2][2] = 8000
+matriz[2][3] = 6000
+matriz[2][4] = 2000
+matriz[2][5] = 1500
+matriz[2][6] = 1500
+matriz[2][7] = 3500
+
+for f in range(1,2):
     for c in range(0,len(matriz[0])):
-        matriz[f][c] = 0
+        matriz[f][c] = 20
+
 
 ################FUNCIONES DENTRO DEL PROGRAMA###########
 
